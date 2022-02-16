@@ -4,6 +4,7 @@ const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
+
 module.exports = function(eleventyConfig) {
 
   // Eleventy Navigation https://www.11ty.dev/docs/plugins/navigation/
@@ -96,6 +97,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.setLibrary("md", markdownIt(options)
     .use(markdownItAnchor, opts)
   );
+
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],

@@ -1,29 +1,87 @@
 :root {
-	--primary: blue;
-	--secondary: white;
-	--background: #FFF0EB;
+    /* Colors */
+    --slate: #393e46;
+    --smoke: #758194;
+    --fog: #a5b5cf;
+    --cornflower: #3554B0;
+    --cobalt: #1338A8;
+    --orange: #f96d00;
+    --gold: #F9CE00;
+    --white: #fff3ea;
+    --charcoal: #222831;
+    --fuschsia: #C0007D;
+    --teal: #00998E;
+    --teal-dark: #00786F;
+	--primary: var(--orange);
+	--secondary: var(--teal);
+    --tertiary: var(--smoke);
+	--background: var(--charcoal);
+
+    /* Fonts */
+    --rustica-light-style: normal;
+    --rustica-light-weight: 100;
+    --rustica-light-family: rustica, sans-serif;
+    --rustica-light-italic-style: italic;
+    --rustica-light-italic-weight: 100;
+    --rustica-light-italic-family: rustica, sans-serif;
+    --new-kansas-bold-style: normal;
+    --new-kansas-bold-weight: 700;
+    --new-kansas-bold-family: kansasnew, serif;
+    --rustica-bold-style: normal;
+    --rustica-bold-weight: 700;
+    --rustica-bold-family: rustica, sans-serif;
 }
 
 *, *:before, *:after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 html,
 body {
 	padding: 0;
 	margin: 0;
-	font-family: "Avenir", "Avenir Next", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-style: var(--rustica-light-style);
+    font-weight: var(--rustica-light-weight);
+    font-family: var(--rustica-light-family);
+    color: var(--fog);
 }
 
 body {
+	display: -ms-grid;
 	display: grid;
 	height: 100vh;
+	-ms-grid-rows: auto 1fr auto;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
 }
 
 main {
 	max-width: 37.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: var(--secondary);
+}
+
+h1 {
+    font-family: var(--new-kansas-bold-family);
+    font-weight: var(--new-kansas-bold-weight);
+    font-style: var(--new-kansas-bold-style);
+}
+
+h2,
+h3,
+h4,
+h5 {
+    font-style: var(--rustica-bold-style);
+    font-weight: var(--rustica-bold-weight);
+    font-family: var(--rustica-bold-family);
 }
 
 p,
@@ -69,7 +127,8 @@ pre {
 	word-spacing: normal;
 	word-break: normal;
 	-moz-tab-size: 2;
-	tab-size: 2;
+	-o-tab-size: 2;
+	   tab-size: 2;
 	-webkit-hyphens: none;
 	-moz-hyphens: none;
 	-ms-hyphens: none;
@@ -79,12 +138,12 @@ pre {
 }
 
 /* Header Logo (style as h2) */
-header > em {
+header > h1 {
 	display: block;
 	font-size: 2em;
 	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
+    padding-bottom: .33em;
+    border-bottom: 1px solid var(--fuschsia);
 }
 
 /* Header Nav */
@@ -102,9 +161,10 @@ header nav li {
 	margin: 0 .25em;
 }
 
-header nav li a {
+header nav li a[href] {
 	padding: .25em .5em;
 	border-radius: .25em;
+    color: var(--fog);
 }
 
 header nav li a[href]:not(:hover) {
@@ -112,7 +172,8 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-	background-color: white;
+	background-color: var(--smoke);
+    color: var(--white);
 }
 
 /* Posts List */
@@ -159,6 +220,7 @@ a[rel="tag"]:last-child {
 
 /* Contact Form */
 form {
+  display: -ms-grid;
   display: grid;
 	padding: 2em 0;
 }

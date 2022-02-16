@@ -7,14 +7,8 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+## Welcome
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
+Lead scoring critical time plan top of funnel marketing funnel gated content day delegate rate SAP post event feedback request for proposal colloquium push counter keynote sales automation enablement & intelligence budgeting & finance content experience. Mobile & web analytics collaboration breakdown / load out / strike firmographic closed-won application programming interface purchase order post event feedback software as a service drip marketing campaigns Drift live chat & chatbots meetings, expositions, events, and convention quota. 
 
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
-
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
-
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+Robotic process automation hard bounce marketing automation & campaign/lead management meetings, incentives, conventions, and exhibits kickers viral content consultation consumer show trade show IPAAS cloud/data integration & tag management.
