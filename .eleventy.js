@@ -3,7 +3,23 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const Image = require("@11ty/eleventy-img");
 
+async function imageShortcode(src, alt, sizes) {
+    let metadata = await Image(src, {
+      widths: [300, 600, 900, 1200],
+      formats: ["png", "jpeg"]
+    });
+  
+    let imageAttributes = {
+      alt,
+      sizes,
+      loading: "lazy",
+      decoding: "async",
+    };
+  
+    return Image.generateHTML(metadata, imageAttributes);
+  }
 
 module.exports = function(eleventyConfig) {
 
@@ -99,6 +115,7 @@ module.exports = function(eleventyConfig) {
   );
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],

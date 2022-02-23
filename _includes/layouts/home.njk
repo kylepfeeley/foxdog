@@ -9,6 +9,7 @@ section: home
     </div>
 </section>
 
-<section class="work">
-
+<section class="work-module">
+    {% set postslist = collections.post %}
+    {% include "components/postslist.njk" %}
 </section>

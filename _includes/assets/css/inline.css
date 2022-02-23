@@ -10,8 +10,8 @@
     --gold: #F9CE00;
     --white: #fff3ea;
     --charcoal: #222831;
-    --fuschsia: #C0007D;
-    --fuschsia-dark: #a7006c;
+    --fuchsia: #C0007D;
+    --fuchsia-dark: #8c0061;
     --teal: #00998E;
     --teal-dark: #00786F;
 	--primary: var(--orange);
@@ -44,8 +44,8 @@
           box-sizing: border-box;
 }
 
-.color-fuschsia {
-    color: var(--fuschsia);
+.color-fuchsia {
+    color: var(--fuchsia);
 }
 
 .color-gold {
@@ -98,6 +98,9 @@ body > *:nth-child(3) {
 
 main {
 	width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1,
@@ -145,6 +148,7 @@ img {
 }
 
 header,
+main,
 footer {
 	padding: 1em;
 }
@@ -219,30 +223,28 @@ header nav li a[data-current="current item"] {
 section.mast {
     width: 100%;
     height: 60vh;
-    max-height: 600px;
+    min-height: 500px;
+    max-height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 1em;
+    align-items: center;
 }
 
-.mast__copy {
-    border-top: 1px solid var(--ink);
-    border-bottom: 1px solid var(--ink);
-    padding: 1em 0;
-    max-width: 1024px;
-}
-
-section.mast h2 {
+.mast__copy h2 {
     font-size: 3rem;
+    margin-bottom: 0;
+    line-height: 1.1;
 }
 
-section.mast p {
+.mast__copy p {
     font-size: 1.2rem;
+    padding-bottom: 1rem;
 }
 
 section.mast a {
-    background-color: var(--fuschsia);
+    background-color: var(--fuchsia);
     padding: 1rem 1.5rem .8rem;
     line-height: 1.2;
     color: var(--white);
@@ -253,21 +255,125 @@ section.mast a {
 }
 
 section.mast a:hover {
-    background-color: var(--fuschsia-dark);
+    background-color: var(--fuchsia-dark);
     text-shadow: 1px 1px 2px black;
 }
 
+@media screen and (min-width: 750px) {
+    section.mast {
+        min-height: 650px;
+        max-height: 850px;
+    }
+}
+
 /* Posts List */
-article {
+.postslist article {
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.postslist__copy h3 a {
+    color: var(--fog);
+}
+
+.postslist img {
+    width: 100%;
+    aspect-ratio: auto 1/1;
+}
+
+@media screen and (min-width: 500px) {
+    .postslist article {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .postslist__copy p {
+        font-size: 1.1rem;
+    }
+
+    .postslist__copy h3 {
+        font-size: 2em;
+    }
 }
 
 main > section > article > * {
 	margin-top: 0;
 	margin-bottom: .5em;
+}
+
+/* Work Module */
+
+@media screen and (min-width: 500px) {
+    .work-module .postslist {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .work-module {
+        max-width: 750px;
+    }
+
+    .work-module .postslist article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .work-module .postslist article:nth-child(even) {
+        -webkit-transform: translateY(2rem);
+                transform: translateY(2rem);
+    }
+
+    .work-module .postslist article:nth-child(odd) {
+        -webkit-transform: translateY(-2rem);
+                transform: translateY(-2rem);
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .work-module {
+        max-width: 650px;
+    }
+
+    .work-module .postslist {
+        grid-gap: 50px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .work-module {
+        max-width: 750px;
+    }
+
+    .work-module .postslist {
+        grid-gap: 75px;
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .work-module {
+        max-width: 1000px;
+    }
+
+    .work-module .postslist {
+        grid-gap: 100px;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .work-module {
+        max-width: 1250px;
+    }
+
+    .work-module .postslist {
+        grid-gap: 150px;
+    }
 }
 
 /* Post Tags */
@@ -332,7 +438,7 @@ button {
 	cursor: pointer;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:750px) {
 	:root {
 		font-size: 1.1rem;
 	}
