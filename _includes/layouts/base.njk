@@ -8,17 +8,17 @@
 		<header>
 			<h1>
 				<a href="{{ '/' | url }}"> 
-                    winfeel media
+                    <span class="color-gold">the</span><br/> winfeel<br/>
+                    <span class="color-fuchsia">agency</span>
                 </a>
 			</h1>
 			{% include "components/nav.njk" %}
 		</header>
 
-		<main>
+		<main class="{{ page.url | replace("/", "") }}-page">
 			{{ layoutContent | safe }}
+            {% include "components/footer.njk" %}
 		</main>
-
-		{% include "components/footer.njk" %}
 
 	</body>
 

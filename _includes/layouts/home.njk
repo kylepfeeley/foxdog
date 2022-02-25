@@ -10,6 +10,28 @@ section: home
 </section>
 
 <section class="work-module">
+    <h3>see some of our work</h3>
     {% set postslist = collections.post %}
     {% include "components/postslist.njk" %}
+</section>
+
+<section class="services-module">
+    <h3>what we do</h3>
+    <div class="services-module__copy">
+        <div class="services-module__step">
+            <img src="/static/img/smoke.png" alt="analyze graphic">
+            <h4>Analyze</h4>
+            <p>We're business and data analysts at heart; the story of your campaign is important, but the bottom line is the most important. we have the smarts and the tech to increase your revenue</p>
+        </div>
+        <div class="services-module__step">
+            <img src="/static/img/smoke.png" alt="envision graphic">
+            <h4>Envision</h4>
+            <p>Our creative acumen combined with experienced data-tested and user-tested design know-how will, not only make your business shine to your audience, but will help you convert audience into loyal customers</p>
+        </div>
+         <div class="services-module__step">
+            <img src="/static/img/smoke.png" alt="deliver graphic">
+            <h4>Deliver</h4>
+            <p>We have experience in both traditional sources and personalized solutions to your traffic acquisition needs. In this ever-evolving media landcape there isn't a one-size-fits all approach.</p>
+        </div>
+    </div>
 </section>
