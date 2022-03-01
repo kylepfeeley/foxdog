@@ -1,0 +1,40 @@
+:root {
+    /* Colors */
+    --ink: #1c1e22;
+    --slate: #393e46;
+    --smoke: #758194;
+    --fog: #a5b5cf;
+    --cornflower: #3554B0;
+    --cobalt: #1338A8;
+    --orange: #f96d00;
+    --gold: #F9CE00;
+    --white: #fff3ea;
+    --charcoal: #222831;
+    --fuchsia: #C0007D;
+    --fuchsia-dark: #8c0061;
+    --teal: #00998E;
+    --teal-dark: #00786F;
+	--primary: var(--orange);
+	--secondary: var(--teal);
+    --tertiary: var(--smoke);
+	--background: var(--charcoal);
+    --xs: 250px;
+    --sm: 500px;
+    --md: 750px;
+    --lg: 1000px;
+    --xl: 1250px;
+
+    /* Fonts */
+    --rustica-light-style: normal;
+    --rustica-light-weight: 100;
+    --rustica-light-family: rustica, sans-serif;
+    --rustica-light-italic-style: italic;
+    --rustica-light-italic-weight: 100;
+    --rustica-light-italic-family: rustica, sans-serif;
+    --new-kansas-bold-style: normal;
+    --new-kansas-bold-weight: 700;
+    --new-kansas-bold-family: kansasnew, serif;
+    --rustica-bold-style: normal;
+    --rustica-bold-weight: 700;
+    --rustica-bold-family: rustica, sans-serif;
+}

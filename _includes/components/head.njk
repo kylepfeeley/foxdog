@@ -6,6 +6,7 @@
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {% set css %}
+    {% include "assets/css/variables.css" %}
     {% include "assets/css/inline.css" %}
     <link rel="stylesheet" href="https://use.typekit.net/opx8xep.css">
   {% endset %}

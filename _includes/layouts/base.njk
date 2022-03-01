@@ -3,21 +3,18 @@
 
 	{% include "components/head.njk" %}
     
-	<body>
+	<body class="{{ page.url | replace("/", "") }}-page">
 
 		<header>
 			<h1>
 				<a href="{{ '/' | url }}"> 
-                    <span class="color-gold">the</span><br/> winfeel<br/>
-                    <span class="color-fuchsia">agency</span>
+                    <span class="color-orange">fox</span><span class="color-fuchsia">dog</span>
                 </a>
 			</h1>
 			{% include "components/nav.njk" %}
 		</header>
-
-		<main class="{{ page.url | replace("/", "") }}-page">
+		<main>
 			{{ layoutContent | safe }}
-            {% include "components/footer.njk" %}
 		</main>
 
 	</body>
