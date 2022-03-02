@@ -7,27 +7,33 @@ eleventyNavigation:
   key: About
   order: 0
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
-Add a few line breaks in here to test:-
-Capitalize  
-on  
-low  
-hanging  
-fruit  
+Our team combines technical expertise, digital media experience, and creative mastery to deliver a real industry advantage.  
+ 
+## Guidance and Grit
+We not only provide you with the guidance you need to go digital but we also jump in the weeds and do the work for you.  Whether you need a fast solution to deliver measurable results, or a longer-term strategy that will disrupt your industry,  we will work with you to get it done and make an impact. 
 
-## Our services
+Our approach to digital marketing is practical, iterative, human-centered, data driven, and fast. We provide multidisciplinary teams that bring together product design, ppc, seo, social, and creative design together to work with you to create your digital journey. Combining the industry and marketing experience you need to address your challenges, and find solutions and drive advancement. 
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+## Our Team
+As a digital marketing agency that was founded by tech start up alumni, we partner with companies who want to drive progress, and deliver results.
 
-### Blue-sky thinking
+<img src="/static/img/cobalt.png" height="200px" width="200px" style="border-radius:100px">
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+### Craig Lewin (Marketing)
+Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
 
-#### Management frameworks
+<img src="/static/img/fuchsia.png" height="200px" width="200px" style="border-radius:100px">
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+### Kyle Feeley (Creative, UX Development)
+Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
 
-##### Regulatory convergence
+<img src="/static/img/gold.png" height="200px" width="200px" style="border-radius:100px">
 
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+### Colin Sholes (Marketing)
+Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
+
+<img src="/static/img/orange.png" height="200px" width="200px" style="border-radius:100px">
+
+### Carl Vernon (Full-Stack Development)
+Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.

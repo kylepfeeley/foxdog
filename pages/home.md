@@ -6,6 +6,6 @@ permalink: /
 ---
 ## Oh Hi! Didn't See You There
 
-Sounds like you need the expertise of our digital consultants who can help you stand out. We're designers with a keen eye for engaging user experience, nerdy developers who build fast products to keep up, and data analysts who know how to grow your audience.
+Foxdog specializes in all your online marketing needs. We combine our digital media know-how with your industry expertise to deliver unstoppable campaigns to drive your company’s growth.
 
 [Get In Touch](/contact)
