@@ -12,10 +12,10 @@ eleventyNavigation:
 ### Data 
 From customer interviews to data analysis, we do the deep research necessary to map out a strong digital strategy for your brand. We use precise analytics to validate and optimize our efforts. This data informs our approach and gives a holistic view of the market to enable you to make key marketing decisions.
 
-### Research. 
+### Research 
 We take a deep dive into quantitative and qualitative data to better understand the industry and your brand. This may include competitive analysis, focus groups, quantitative surveys and other secondary research.
 
-### Personas and journeys. 
+### Personas and Journeys
 We will use this research to better understand your audience. This will allow us to segment your audiences in meaningful ways.   We will build out story-based personas of your target audience to allow you to align your strategy with their needs. 
 
 ### Content Strategy
@@ -39,7 +39,7 @@ From TikTok and Facebook to Pinterest and Instagram (and everything in between),
 Key business decisions all start with trustworthy data. Our reporting infrastructure is created to supply you with the data you need to form actionable insights to help you make key strategic decisions to grow your business. We measure all of our campaigns through clearly defined KPIs and success metrics that are client specific. The data gained and insights formed will guide our strategy and allow us to make educated decisions. We will generate visually appealing and informative dashboards to allow you to track our progress and make key business decisions to continue drive your business forward.
 
 
-### Digital Experiences
+## Digital Experiences
 
 ### UX/UI Design
 Our UX team will deliver key insights to you through user research, persona development and customer journeys to give you a deep understanding of your audiences and what motivates them. With these findings, our UX team will collaborate with your company to create digital experiences that showcase your brand and appeal to your customers. We ensure that all websites have information architecture that is easy and quick to navigate to provide a sound user experience.
