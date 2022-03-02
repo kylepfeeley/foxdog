@@ -84,7 +84,7 @@ main {
 
 @media screen and (min-width: 750px) { 
     main {
-        margin-left: 170px;
+        margin-left: 230px;
     }
 }
 
@@ -169,6 +169,11 @@ header {
     flex-direction: column;
 }
 
+header img {
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
 header > h1 {
 	display: inline;
     margin: 0 0 1rem 0;
@@ -184,6 +189,11 @@ header nav ul {
 }
 
 header nav ul :first-child {
+	margin-left: 0;
+    padding-left: 0;
+}
+
+header nav ul :first-child a[href] {
 	margin-left: 0;
     padding-left: 0;
 }
