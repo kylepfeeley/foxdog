@@ -3,7 +3,7 @@ title: PetPlace
 metaDescription: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
 date: 2019-01-01T00:00:00.000Z
 author: Kyle Feeley
-featured_image: "fuchsia.png"
+featured_image: "petplace-featured-image.jpg"
 summary: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
 tags:
   - tech
@@ -12,18 +12,10 @@ tags:
   - display
   - email
 ---
-DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration
+### Goals
+Rebrand and redesign of a popular pet information website, their email templates and display ads. 
 
-## Section Header
+### Achievements
+Created a brand that the company and users were enthusiastic about. Used latest tech in UX development to create a state-of-the-art site using Gatsby as the front end framework to create high-performing headless CMS integrated with existing legacy Wordpress database – saving the company a ton of money in migrating to a new CMS. Drastically improved website pagespeed score. Integration and optimization of a new pet insurance product.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
-```text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-```
-
-Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Tasked with improving the SEO for PetPlace.com and responsible for increasing the site visits to over 1MM per month. This involved extensive keyword research, content creation and optimization and backlink outreach.

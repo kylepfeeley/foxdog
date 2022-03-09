@@ -3,19 +3,21 @@
 
 	{% include "components/head.njk" %}
     
-	<body class="{{ page.url | replace("/", "") }}-page">
+	<body class="{{ page.fileSlug }}-page">
 
 		<header>
-		
 				<a href="{{ '/' | url }}"> 
-                    <img src="/static/img/foxdog-logo.svg">
+                    <img src="/static/img/foxdog-collective-logo.svg">
                 </a>
-		
 			{% include "components/nav.njk" %}
 		</header>
 		<main>
 			{{ layoutContent | safe }}
 		</main>
+
+        <footer>
+            <small>&copy;2022 Foxdog Collective</small>
+        </footer>
 
 	</body>
 

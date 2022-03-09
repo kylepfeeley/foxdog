@@ -3,25 +3,17 @@ title: Torchlight Technology
 metaDescription: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
 date: 2019-01-01T00:00:00.000Z
 author: Kyle Feeley
-featured_image: "gold.png"
+featured_image: "torchlight-featured-image.jpg"
 summary: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
 tags:
   - tech
   - insurance
   - branding
 ---
-DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration
+### Goals
+Growing small private digital marketing company to increase profit/revenue for company, growing from healthcare insurance vertical into other insurance, financial products and even retail.
 
-## Section Header
+### Achievements
+Design and UI/UX build and optimization on all property websites, display, email, social media. Branding of new properties and leading/executing rebranding or existing intellectual properties of Torchlight and it’s parent company ICH.
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.
-
-```text/2-3
-// this is a command
-function myCommand() {
-	let counter = 0;
-	counter++;
-}
-```
-
-Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+Created and scaled profitable lead generation channels in Google Ads, Bing and Facebook in health, medicare and auto insurance. Created and through iterative testing develop a lead nurturing campaign through email, sms and ringless voicemail to help improve the lifetime value of the consumer.
