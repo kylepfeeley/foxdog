@@ -161,6 +161,7 @@ pre {
 header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 100%;
     max-width: var(--xl);
 }
@@ -180,7 +181,7 @@ header > h1 {
 header nav ul {
 	padding: 0;
 	list-style: none;
-    margin: 0;
+    margin: 0 0 1rem;
     line-height: 1;
 }
 
@@ -194,18 +195,14 @@ header nav ul :first-child a[href] {
     padding-left: 0;
 }
 
-header nav ul :last-child a[href] {
-	background-color: var(--teal);
-    padding: 1rem 2rem;
-    color: var(--white);
-}
-
 header nav li {
 	display: inline-block;
 	margin: 0 .25em;
 }
 
 header nav li a[href] {
+    font-size: .9rem;
+    text-transform: uppercase;
 	padding: .25em .5em;
 	border-radius: .25em;
     color: var(--fog);
@@ -232,11 +229,24 @@ header nav li a[data-current="current item"] {
     header {
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
+    }
+
+    header nav ul :last-child a[href] {
+        background-color: var(--cornflower);
+        padding: 1rem 2rem;
+        color: var(--white);
+        margin-left: 1rem;
     }
 
     .postslist__copy h3 {
         font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    header {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
@@ -257,8 +267,8 @@ section.mast {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1em;
-    margin-bottom: 2rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
     align-items: center;
     background-color: rgba(0,0,0,.2);
 }
@@ -274,13 +284,15 @@ section.mast {
 }
 
 .mast__copy h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 0;
     line-height: 1.1;
+    display: inline-block;
+    border-bottom: 5px solid var(--fuchsia);
 }
 
 .mast__copy p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     padding-bottom: 1rem;
 }
 
@@ -385,6 +397,27 @@ main > section > article > * {
     color: var(--teal);
 }
 
+.work-module .postslist article {
+    background-color: rgba(0,0,0,.2);
+}
+
+.work-module .postslist article:nth-child(1) {
+    border-bottom: 7px solid var(--orange)
+}
+
+.work-module .postslist article:nth-child(2) {
+    border-bottom: 7px solid var(--cobalt)
+}
+
+.work-module .postslist article:nth-child(3) {
+    border-bottom: 7px solid var(--gold)
+}
+
+.work-module .postslist article:nth-child(4) {
+    border-bottom: 7px solid var(--teal)
+}
+
+
 @media screen and (min-width: 500px) {
     .work-module .postslist {
         display: -ms-grid;
@@ -478,7 +511,7 @@ main > section > article > * {
 /* Services Module */
 
 .services-module {
-    max-width: var(--xl);
+    max-width: var(--sm);
     margin-top: 2rem;
 }
 
@@ -489,6 +522,10 @@ main > section > article > * {
 }
 
 @media screen and (min-width: 750px) {
+    .services-module {
+        max-width: var(--xl);
+    }
+
     .services-module__copy {
         flex-direction: row;
     }

@@ -1,8 +1,8 @@
 ---
 title: About us
 layout: layouts/page.njk
-metaDescription: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.desciption will be used instead.
-summary: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
+metaDescription: Our team combines technical expertise, digital media experience, and creative mastery to deliver a real industry advantage.
+summary: Our team combines technical expertise, digital media experience, and creative mastery to deliver a real industry advantage.  
 section: about
 date: 2017-01-01T00:00:00.000Z
 permalink: /about/index.html
@@ -10,9 +10,6 @@ eleventyNavigation:
   key: About
   order: 0
 ---
-
-Our team combines technical expertise, digital media experience, and creative mastery to deliver a real industry advantage.  
- 
 ## Guidance and Grit
 We not only provide you with the guidance you need to go digital but we also jump in the weeds and do the work for you.  Whether you need a fast solution to deliver measurable results, or a longer-term strategy that will disrupt your industry,  we will work with you to get it done and make an impact. 
 
