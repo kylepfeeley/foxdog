@@ -10,6 +10,9 @@ eleventyNavigation:
   key: Services
   order: 1
 ---
+<div class="content__strategy">
+<div class="content__grid">
+
 ## Digital Strategy
 
 ### Data 
@@ -18,11 +21,34 @@ From customer interviews to data analysis, we do the deep research necessary to 
 ### Research 
 We take a deep dive into quantitative and qualitative data to better understand the industry and your brand. This may include competitive analysis, focus groups, quantitative surveys and other secondary research.
 
-### Personas and Journeys
+### Personas & Journeys
 We will use this research to better understand your audience. This will allow us to segment your audiences in meaningful ways.   We will build out story-based personas of your target audience to allow you to align your strategy with their needs. 
 
 ### Content Strategy
 This is the planning, creation, distribution and management of content to attract new customers/clients. We will create strategies that both engage and convert your target audience. This ensures you reach the right people at the right time to increase intent and drive them further down the marketing funnel.
+
+</div>
+</div>
+
+<div class="content__experience">
+<div class="content__grid">
+
+## Digital Experience
+
+### UX/UI Design
+Our UX team will deliver key insights to you through user research, persona development and customer journeys to give you a deep understanding of your audiences and what motivates them. With these findings, our UX team will collaborate with your company to create digital experiences that showcase your brand and appeal to your customers. We ensure that all websites have information architecture that is easy and quick to navigate to provide a sound user experience.
+
+### Brand & Identity
+Your brand is what separates you from your competitors! WE help companies find out who they are and what they represent to build a consistent brand identity that will resonate not only with your customers but with your employees as well.
+
+### Graphic Design
+Our goal is to create designs that grab attention and keep it! We ensure all our designs match your brand’s style guide and work across all devices. We will work with you to create powerful infographics, campaign creatives, and animations and illustrations that tell the story of your brand and help achieve your brand goals.
+
+</div>
+</div>
+
+<div class="content__marketing">
+<div class="content__grid">
 
 ## Digital Marketing
 
@@ -41,14 +67,5 @@ From TikTok and Facebook to Pinterest and Instagram (and everything in between),
 ### Analytics & Reporting
 Key business decisions all start with trustworthy data. Our reporting infrastructure is created to supply you with the data you need to form actionable insights to help you make key strategic decisions to grow your business. We measure all of our campaigns through clearly defined KPIs and success metrics that are client specific. The data gained and insights formed will guide our strategy and allow us to make educated decisions. We will generate visually appealing and informative dashboards to allow you to track our progress and make key business decisions to continue drive your business forward.
 
-
-## Digital Experiences
-
-### UX/UI Design
-Our UX team will deliver key insights to you through user research, persona development and customer journeys to give you a deep understanding of your audiences and what motivates them. With these findings, our UX team will collaborate with your company to create digital experiences that showcase your brand and appeal to your customers. We ensure that all websites have information architecture that is easy and quick to navigate to provide a sound user experience.
-
-### Brand & Identity
-Your brand is what separates you from your competitors! WE help companies find out who they are and what they represent to build a consistent brand identity that will resonate not only with your customers but with your employees as well.
-
-### Graphic Design
-Our goal is to create designs that grab attention and keep it! We ensure all our designs match your brand’s style guide and work across all devices. We will work with you to create powerful infographics, campaign creatives, and animations and illustrations that tell the story of your brand and help achieve your brand goals.
+</div>
+</div>
