@@ -276,7 +276,7 @@ section.mast {
 }
 
 [data-current="home"] section.mast {
-    border-bottom: 11px solid var(--teal-dark);
+    border-bottom: 11px solid rgba(0,0,0,.2);
     gap: 2rem;
 }
 
