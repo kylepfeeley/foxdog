@@ -52,11 +52,13 @@ body {
 }
 
 footer {
-    margin-top: 1rem;
     width: 100%;
-    height: 3rem;
-    background-color: rgba(0,0,0,.3);
-    text-align: center;
+    height: 4rem;
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 body > *:nth-child(1) {
@@ -293,8 +295,7 @@ section.mast {
     font-size: 2.5rem;
     margin-bottom: 0;
     line-height: 1.1;
-    display: inline-block;
-    border-bottom: 5px solid var(--fuchsia);
+    border-bottom: 1px solid rgba(255,255,255,.3);
 }
 
 .mast__copy p {
@@ -400,34 +401,23 @@ main > section > article > * {
 
 /* Work Module */
 
-.work-module .postslist {
-    padding-top: 2rem;
+.work-module h3 {
+    color: var(--teal);
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
-.work-module > h3 {
-    color: var(--teal);
+.work-module h4 {
+    font-size: 1.7rem;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    margin-bottom: 0;
 }
 
 .work-module .postslist article {
     background-color: rgba(0,0,0,.2);
+    border-bottom: 7px solid rgba(0,0,0,.2);
+    margin-bottom: 2rem;
 }
-
-.work-module .postslist article:nth-child(1) {
-    border-bottom: 7px solid var(--orange)
-}
-
-.work-module .postslist article:nth-child(2) {
-    border-bottom: 7px solid var(--cobalt)
-}
-
-.work-module .postslist article:nth-child(3) {
-    border-bottom: 7px solid var(--fuchsia)
-}
-
-.work-module .postslist article:nth-child(4) {
-    border-bottom: 7px solid var(--teal)
-}
-
 
 @media screen and (min-width: 500px) {
     .work-module .postslist {
@@ -436,6 +426,8 @@ main > section > article > * {
         -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
         grid-gap: 20px;
+        margin-bottom: 4rem;
+        padding-top: 2rem;
     }
 
     .work-module {
@@ -607,13 +599,13 @@ main > section > article > * {
 }
 
 
-
-
 /* Services Module */
 
 .services-module {
-    max-width: var(--sm);
-    margin-top: 2rem;
+    max-width: 350px;
+    padding: 1rem;
+    background-color: rgba(0,0,0,.2);
+    margin-bottom: 2rem;
 }
 
 .services-module__copy, 
@@ -622,6 +614,12 @@ main > section > article > * {
     flex-direction: column;
     align-items: center;
     grid-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.services-module__step {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .services-module h4,
@@ -631,7 +629,13 @@ main > section > article > * {
 }
 
 .services-module h4 {
-
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
 }
 
 

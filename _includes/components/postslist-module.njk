@@ -2,10 +2,11 @@
 	{% for post in postslist | reverse %}
         {% if loop.index <= 4 %}
             <article{% if post.url == url %} data-current="current item"{% endif %}>
-                <img src="/static/img/{{ post.data.featured_image }}">
+                <a href="{{ post.url | url }}">
+                    <img src="/static/img/{{ post.data.featured_image }}">
+                </a>
                 <div class="postslist__copy">
-                    <h3>
-                        
+                    <h4>   
                      <a href="{{ post.url | url }}">
                             {% if post.data.title %}
                                 {{ post.data.title }}
@@ -13,7 +14,7 @@
                                 Untitled
                             {% endif %}
                         </a>
-                    </h3>
+                    </h4>
                 {% if post.data.summary %}
                     <p>
                         {{ post.data.summary }}
