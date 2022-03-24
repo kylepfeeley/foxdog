@@ -1,7 +1,7 @@
 ---
 title: EverQuote
 metaDescription: EverQuote is a top national online insurance marketplace which we lead teams that developed the brand, UX, and marketing strategies that helped it become a billion dollar company publically traded business.
-date: 2019-01-01T00:00:00.000Z
+date: 2019-06-01T00:00:00.000Z
 author: Kyle Feeley
 featured_image: "everquote-featured-image.jpg"
 summary: EverQuote is a top national online insurance marketplace which we lead teams that developed the brand, UX, and marketing strategies that helped it become a billion dollar company publically traded business.
