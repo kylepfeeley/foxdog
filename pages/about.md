@@ -18,22 +18,38 @@ Our approach to digital marketing is practical, iterative, human-centered, data 
 ## Our Team
 As a digital marketing agency that was founded by tech start up alumni, we partner with companies who want to drive progress, and deliver results.
 
+<div class="team-bio">
+
 <img src="/static/img/cobalt.png" height="200px" width="200px" style="border-radius:100px">
 
 ### Craig Lewin (Marketing)
 Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
+
+</div>
+
+<div class="team-bio">
 
 <img src="/static/img/fuchsia.png" height="200px" width="200px" style="border-radius:100px">
 
 ### Kyle Feeley (Creative, UX Development)
 Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
 
+</div>
+
+<div class="team-bio">
+
 <img src="/static/img/gold.png" height="200px" width="200px" style="border-radius:100px">
 
 ### Colin Sholes (Marketing)
 Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
 
+</div>
+
+<div class="team-bio">
+
 <img src="/static/img/orange.png" height="200px" width="200px" style="border-radius:100px">
 
 ### Carl Vernon (Full-Stack Development)
 Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
+
+</div>
