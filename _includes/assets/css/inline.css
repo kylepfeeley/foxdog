@@ -38,23 +38,34 @@ body {
 }
 
 body {
-	display: -ms-grid;
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-	display: flex;
+	position: relative;
     flex-direction: column;
-    align-items: center;
+    width: 100%;
+    height: 100%;
     background: var(--background);
-	background: -webkit-gradient(linear, left bottom, left top, from(rgba(8,11,17,1)), color-stop(50%, rgba(15,22,40,1)), to(rgba(17,32,54,1)));
-	background: linear-gradient(0deg, rgba(8,11,17,1) 0%, rgba(15,22,40,1) 50%, rgba(17,32,54,1) 100%);
+	background: -webkit-gradient(linear, left bottom, left top, from(rgba(8,11,17,1)), color-stop(50%, rgba(15,22,40,1)), to(#112036));
+	background: linear-gradient(0deg, rgba(8,11,17,1) 0%, rgba(15,22,40,1) 50%, #112036 100%);
     background-size: cover;
+}
+
+body::before {
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+    opacity: 0.5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17,32,54,1)), color-stop(19%, rgba(17,32,54,1)), color-stop(39%, rgba(17,32,54,0.09))), -webkit-gradient(linear, left top, right top, from(rgba(2,0,36,0)), color-stop(20%, rgba(17,32,54,1)), color-stop(80%, rgba(17,32,54,1)), to(rgba(17,32,54,0))), url(/static/img/poly-bg.svg);
+    background-image: linear-gradient(180deg, rgba(17,32,54,1) 0%, rgba(17,32,54,1) 19%, rgba(17,32,54,0.09) 39%), linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(17,32,54,1) 20%, rgba(17,32,54,1) 80%, rgba(17,32,54,0) 100%), url(/static/img/poly-bg.svg);
+    background-size: fill;
+    background-repeat: repeat;
 }
 
 footer {
     width: 100%;
     height: 4rem;
-    background-color: rgba(0,0,0,.4);
+    background-color: rgba(17,34,59,.2);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -125,6 +136,7 @@ img {
 
 header {
 	padding: 1rem;
+    margin: 0 auto;
 }
 
 main {
@@ -238,10 +250,6 @@ header nav li a[data-current="current item"] {
         padding: 1rem 2rem;
         color: var(--white);
         margin-left: 1rem;
-    }
-
-    .postslist__copy h3 {
-        font-size: 2em;
     }
 }
 
@@ -410,14 +418,16 @@ main > section > article > * {
 
 .work-module article h3 a {
     color: var(--teal);
-    text-transform: uppercase;
 }
 
 .work-module article h4 a {
     color: var(--teal);
     font-size: 1.7rem;
-    text-transform: uppercase;
-    margin-bottom: 0;
+}
+
+.work-module article h4 {
+    margin: 0;
+    padding: 0;
 }
 
 .work-module .postslist article {
@@ -699,6 +709,35 @@ main > section > article > * {
     max-width: var(--sm);
     padding-left: 1rem;
     padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+[data-current="post"] header {
+    margin-bottom: 2rem;
+}
+
+.post__header {
+    margin-bottom: 2rem;
+    background-color: rgba(0,0,0,.2);
+}
+
+[data-current="post"] img.mock-laptop {
+    width: 80%;
+    border: 1px solid black;
+    margin: 50px auto 100px;
+        -ms-grid-column-align: center;
+            justify-self: center;
+    -o-border-image: url(/static/img/laptop-mock.svg);
+    border-image: url(/static/img/laptop-mock.svg);
+    border-image-slice: 64 258 176 240;
+    border-image-width: 32px 128px 78px 120px; 
+    border-image-repeat: fill;
+    border-image-outset: 32px 128px 78px 120px;
+}
+
+.post__header__copy {
+    padding: 0 1rem 1rem 1rem;
 }
 
 @media screen and (min-width: 525px) {
@@ -710,6 +749,25 @@ main > section > article > * {
 @media screen and (min-width: 1000px) {
     [data-current="post"] article {
         max-width: var(--md);
+    }
+
+    .post__header {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+    }
+
+    .post__header img {
+        max-width: 50%;
+    }
+
+    .post__header__copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 2rem 0 0;
     }
 }
 
@@ -725,7 +783,7 @@ main > section > article > * {
 .services-module {
     max-width: 350px;
     padding: 1rem;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(17,34,59,.4);
     margin-bottom: 2rem;
 }
 

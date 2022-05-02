@@ -4,12 +4,15 @@ section: post
 ---
 
 <article>
-  <h1>{{ title }}</h1>
-  <p>
-    <small>
-      <time datetime="{{ page.date | machineDate }}">{{ page.date | readableDate }}</time> by <a href="/authors/{{ author | slug }}/">{{ author }}</a>
-    </small>
-  </p>
+  <div class="post__header">
+    <img src="/static/img/{{ featured_image }}" alt=""/>    
+    <div class="post__header__copy">
+         
+        <h1>{{ title }}</h1>
+        <p>{{ metaDescription }}</p>
+    </div>
+  </div>
+
 
   {{ layoutContent | safe }}
 
@@ -27,5 +30,5 @@ section: post
 </article>
 
 <nav>
-  <a href="{{ '/work/' | url }}">← Work index</a>
+  <a href="{{ '/work/' | url }}">← Featured Work</a>
 </nav>

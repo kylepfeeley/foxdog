@@ -3,25 +3,32 @@ const CleanCSS = require("clean-css");
 const UglifyJS = require("uglify-js");
 const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const Image = require("@11ty/eleventy-img");
 
-async function imageShortcode(src, alt, sizes) {
-    let metadata = await Image(src, {
-      widths: [300, 600, 900, 1200],
-      formats: ["png", "jpeg"]
-    });
+const Image = require("@11ty/eleventy-img");
+const path = require("path");
+
+function imageShortcode(src, cls, alt) {
+    let options = {
+      widths: [500, 750, 1000, 1250],
+      formats: ['jpeg'],
+      urlPath: "../../static/img/sizes",
+      outputDir: "./static/img/sizes",
+    };
+  
+    // generate images, while this is async we don’t wait
+    Image(src, options);
   
     let imageAttributes = {
+      class: cls,
       alt,
-      sizes,
+      sizes: ['(max-width: 500px) 500px', '(min-width: 500px) 750px', '(min-width: 750px) 1000px', '(min-width: 1000px) 1250px'],
       loading: "lazy",
       decoding: "async",
     };
-  
-    return Image.generateHTML(metadata, imageAttributes, {
-        whitespaceMode: "inline"
-    });
-}
+    // get metadata even the images are not fully generated
+    let metadata = Image.statsSync(src, options);
+    return Image.generateHTML(metadata, imageAttributes);
+  }
 
 module.exports = function(eleventyConfig) {
 
@@ -118,7 +125,10 @@ module.exports = function(eleventyConfig) {
   );
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  
   eleventyConfig.addNunjucksAsyncShortcode("image", imageShortcode);
+  eleventyConfig.addLiquidShortcode("image", imageShortcode);
+  eleventyConfig.addJavaScriptFunction("image", imageShortcode);
 
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
