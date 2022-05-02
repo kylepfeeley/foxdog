@@ -56,8 +56,8 @@ body::before {
     min-height: 100%;
     height: 100%;
     opacity: 0.5;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17,32,54,1)), color-stop(19%, rgba(17,32,54,1)), color-stop(39%, rgba(17,32,54,0.09))), -webkit-gradient(linear, left top, right top, from(rgba(2,0,36,0)), color-stop(20%, rgba(17,32,54,1)), color-stop(80%, rgba(17,32,54,1)), to(rgba(17,32,54,0))), url(/static/img/poly-bg.svg);
-    background-image: linear-gradient(180deg, rgba(17,32,54,1) 0%, rgba(17,32,54,1) 19%, rgba(17,32,54,0.09) 39%), linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(17,32,54,1) 20%, rgba(17,32,54,1) 80%, rgba(17,32,54,0) 100%), url(/static/img/poly-bg.svg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(17,32,54,1)), color-stop(5%, rgba(17,32,54,1)), color-stop(40%, rgba(17,32,54,0.09))), -webkit-gradient(linear, left top, right top, from(rgba(2,0,36,0)), color-stop(20%, rgba(17,32,54,1)), color-stop(80%, rgba(17,32,54,1)), to(rgba(17,32,54,0))), url(/static/img/poly-bg.svg);
+    background-image: linear-gradient(180deg, rgba(17,32,54,1) 0%, rgba(17,32,54,1) 5%, rgba(17,32,54,0.09) 40%), linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(17,32,54,1) 20%, rgba(17,32,54,1) 80%, rgba(17,32,54,0) 100%), url(/static/img/poly-bg.svg);
     background-size: fill;
     background-repeat: repeat;
 }
