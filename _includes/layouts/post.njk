@@ -10,22 +10,23 @@ section: post
          
         <h1>{{ title }}</h1>
         <p>{{ metaDescription }}</p>
+          {% if tags %}
+            <p>
+            {% for tag in tags %}
+            {%- if tag != "post" -%}
+                {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+            {%- endif -%}
+            {% endfor %}
+            </p>
+        {% endif %}
     </div>
   </div>
 
 
   {{ layoutContent | safe }}
 
-  {% if tags %}
-    <p>
-    {% for tag in tags %}
-      {%- if tag != "post" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-      {%- endif -%}
-    {% endfor %}
-    </p>
-  {% endif %}
+
 
 </article>
 

@@ -9,16 +9,18 @@
                     <h4>   
                      <a href="{{ post.url | url }}">
                             {% if post.data.title %}
-                                {{ post.data.title }}
+                                {{ post.data.title }}&nbsp;<span class="postslist__copy__icon">&#9655;</span>
                             {% else %}
-                                Untitled
+                                Untitled&nbsp;<span class="postslist__copy__icon">&#9655;</span>
                             {% endif %}
                         </a>
                     </h4>
                 {% if post.data.summary %}
+                    <a href="{{ post.url | url }}">
                     <p>
                         {{ post.data.summary }}
                     </p>
+                    </a>
                 {% endif %}
                 {% if post.data.tags %}
                     <p>
