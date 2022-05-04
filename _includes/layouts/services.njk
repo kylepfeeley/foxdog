@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+---
+<section class="mast">
+    <div class="mast__image"></div>
+    <div class="mast__copy">
+        <h2>{{ title }}</h2>
+        <p>{{ summary }}</p>
+    </div>
+</section>
+
+<section class="content">
+    {{ layoutContent | safe }} 
+    <div class="contact-module">
+        <h3>This is just the beginning</h3>
+        <p>But enough about us, let's talk about you! What are your marketing challenges? How much do you want to grow your audience? Reach out and let's get some old fashioned synergy going.</p>
+       <a href="/contact/"><button class="contact-module__button">Hit Us Up</button>
+       </a>
+    </div>
+</section>
