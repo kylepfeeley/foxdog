@@ -4,8 +4,8 @@ title: Home
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 ---
-## Oh Hi! Didn't See You There
+## We Put The Pieces Together
 
-Foxdog specializes in all your online marketing needs. We combine our digital media know-how with your industry expertise to deliver unstoppable campaigns to drive your company’s growth.
+The digital landscape changes constantly, but what about your digital marketing strategy? Foxdog specializes developing every piece of the puzzle to help you build a full marketing picture for you today and into the future.
 
 [Get In Touch](/contact)
