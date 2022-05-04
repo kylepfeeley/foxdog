@@ -1211,6 +1211,7 @@ a[rel="tag"]:last-child {
     gap: 2rem;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 } 
 
 [data-current="contact"] .contact-content {
