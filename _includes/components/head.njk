@@ -11,8 +11,18 @@
     <link rel="stylesheet" href="https://use.typekit.net/opx8xep.css">
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
+  <link rel="stylesheet" href="{{ url }}/_includes/assets/css/photoswipe.css">
   {% set js %}
     {% include "assets/js/inline.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
+  <script type="module">
+    import PhotoSwipeLightbox from '{{ url }}/_includes/assets/js/photoswipe-lightbox.esm.min.js';
+    const options = {
+    gallery: '#gallery--responsive-images a',
+    pswpModule: () => import('{{ url }}/_includes/assets/js/photoswipe.esm.min.js')
+    };
+    const lightbox = new PhotoSwipeLightbox(options);
+    lightbox.init();
+  </script>
 </head>

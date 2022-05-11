@@ -1,24 +1,26 @@
 <section class="postslist">
 	{% for post in postslist | reverse %}
-		<article{% if post.url == url %} data-current="current item"{% endif %}>
-            <img src="/static/img/{{ post.data.featured_image }}">
-            <div class="postslist__copy">
-                <h3>
-				<a href="{{ post.url | url }}">
-					{% if post.data.title %}
-						{{ post.data.title }}
-					{% else %}
-						Untitled
-					{% endif %}
-				</a>
-			</h3>
-
-        
-			{% if post.data.summary %}
-				<p>
-					{{ post.data.summary }}
-				</p>
-			{% endif %}
+            <article{% if post.url == url %} data-current="current item"{% endif %}>
+                <a href="{{ post.url | url }}">
+                    <img src="/static/img/{{ post.data.featured_image }}">
+                </a>
+                <div class="postslist__copy">
+                    <h4>   
+                     <a href="{{ post.url | url }}">
+                            {% if post.data.title %}
+                                {{ post.data.title }}&nbsp;<span class="postslist__copy__icon">&#9655;</span>
+                            {% else %}
+                                Untitled&nbsp;<span class="postslist__copy__icon">&#9655;</span>
+                            {% endif %}
+                        </a>
+                    </h4>
+                {% if post.data.summary %}
+                    <a href="{{ post.url | url }}">
+                        <p>
+                            {{ post.data.summary }}
+                        </p>
+                    </a>
+                {% endif %}
                 {% if post.data.tags %}
                     <p>
                         {% for tag in post.data.tags %}
@@ -28,8 +30,8 @@
                         {%- endif -%}
                         {% endfor %}
                     </p>
-            {% endif %}
-            </div>
-		</article>
+                {% endif %}
+                </div>
+            </article>
 	{% endfor %}
 </section>

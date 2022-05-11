@@ -7,27 +7,34 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
 const path = require("path");
 
-function imageShortcode(src, cls, alt) {
-    let options = {
-      widths: [500, 750, 1000, 1250],
+const PhotoswipeJS = require.resolve("photoswipe");
+const PhotoswipeLightbox = require.resolve("photoswipe/lightbox");
+const PhotoswipeCSS = require.resolve("photoswipe/photoswipe.css");
+
+async function imageShortcode(src, cls, alt) {
+    if(alt === undefined) {
+        throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+      }
+      
+    let metadata = await Image(src, {
+      widths: [500, 750, 1000, 1250, 1500],
       formats: ['jpeg'],
       urlPath: "../../static/img/sizes",
-      outputDir: "./static/img/sizes",
-    };
-  
-    // generate images, while this is async we don’t wait
-    Image(src, options);
-  
-    let imageAttributes = {
-      class: cls,
-      alt,
-      sizes: ['(max-width: 500px) 500px', '(min-width: 500px) 750px', '(min-width: 750px) 1000px', '(min-width: 1000px) 1250px'],
-      loading: "lazy",
-      decoding: "async",
-    };
+      outputDir: "./static/img/sizes"
+    });
+
     // get metadata even the images are not fully generated
-    let metadata = Image.statsSync(src, options);
-    return Image.generateHTML(metadata, imageAttributes);
+    let src500 = metadata.jpeg[0];
+    let src750 = metadata.jpeg[1];
+    let src1000 = metadata.jpeg[2];
+    let src1250 = metadata.jpeg[3];
+    let data = metadata.jpeg[metadata.jpeg.length - 1];
+    return `<a class="post__gallery-image" href="${data.url}" 
+            data-pswp-width="${data.width}" 
+            data-pswp-height="${data.height}"
+            data-pswp-srcset="${src500.url} 500w, ${src750.url} 750w, ${src1000.url} 1000w, ${src1250.url} 1250w" target="_blank">
+            <img srcset="${src500.url} 500w, ${src750.url} 750w, ${src1000.url} 1000w, ${src1250.url} 1250w" class="${cls}" sizes="100vw" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">
+            </a>`;
   }
 
 module.exports = function(eleventyConfig) {
@@ -107,6 +114,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/inline.css");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/variables.css");
+  eleventyConfig.addPassthroughCopy({[PhotoswipeLightbox]: "_includes/assets/js/photoswipe-lightbox.esm.min.js"});
+  eleventyConfig.addPassthroughCopy({[PhotoswipeJS]: "_includes/assets/js/photoswipe.esm.min.js"});
+  eleventyConfig.addPassthroughCopy({[PhotoswipeCSS]: "_includes/assets/css/photoswipe.css"});
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");

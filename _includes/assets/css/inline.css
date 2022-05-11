@@ -898,27 +898,37 @@ main > section > article > * {
     margin-bottom: 2rem;
 }
 
-.post__header {
-    margin-bottom: 4rem;
+[data-current="post"] .post__header {
+    margin-bottom: 1rem;
     background-color: rgba(0,0,0,.2);
 }
 
-[data-current="post"] img.mock-laptop {
-    width: 80%;
+[data-current="post"] .post__gallery-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[data-current="post"] a img.mock-laptop {
+    width: auto;
+    max-height: 90vh;
+    max-width: 80%;
     border: 1px solid black;
-    margin: 50px auto 100px;
+    margin: 1rem auto 3rem;
         -ms-grid-column-align: center;
             justify-self: center;
     -o-border-image: url(/static/img/laptop-mock.svg);
     border-image: url(/static/img/laptop-mock.svg);
     border-image-slice: 64 258 176 240;
-    border-image-width: 32px 128px 78px 120px; 
+    border-image-width: 16 64 39 60; 
     border-image-repeat: fill;
-    border-image-outset: 32px 128px 78px 120px;
+    border-image-outset: 16 64 39 60;
 }
 
-[data-current="post"] img.mock-tablet {
-    width: 80%;
+[data-current="post"] a img.mock-tablet {
+    max-height: 90vh;
+    width: auto;
+    max-width: 80%;
     border: 1px solid black;
     margin: 70px auto;
         -ms-grid-column-align: center;
@@ -931,10 +941,11 @@ main > section > article > * {
     border-image-outset: 55px 16px;
 }
 
-[data-current="post"] img.mock-phone {
-    width: 50%;
+[data-current="post"] a img.mock-phone {
+    max-height: 90vh;
+    width: auto;
+    max-width: 50%;
     border: 1px solid black;
-    margin: 70px auto;
         -ms-grid-column-align: center;
             justify-self: center;
     -o-border-image: url(/static/img/phone-mock.svg);
@@ -946,12 +957,15 @@ main > section > article > * {
 }
 
 [data-current="post"] .device-mocks {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
 }
 
-.post__header__copy {
+[data-current="post"] .post__header__copy {
     padding: 0 1rem 1rem 1rem;
 }
 
@@ -969,12 +983,12 @@ main > section > article > * {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         -ms-grid-rows: 1fr;
         grid-template-rows: 1fr;
-        width: 80%;
-        margin: 6rem auto;
+        margin: 2rem auto 8rem;
         align-items: end;
+        gap: 0;
     }
 
-    [data-current="post"] article  img.mock-tablet {
+    [data-current="post"] article  a.post__gallery-image {
         -ms-grid-column: 1;
         -ms-grid-column-span: 3;
         grid-column: 1 / 4;
@@ -983,10 +997,10 @@ main > section > article > * {
         grid-row: 1 / 2;
         margin: 0;
         -ms-grid-column-align: end;
-                    justify-self: end;
+        justify-self: end;
     }
 
-    [data-current="post"] article  img.mock-phone {
+    [data-current="post"] article a.post__gallery-image:last-child {
         -ms-grid-column: 3;
         -ms-grid-column-span: 2;
         grid-column: 3 / 5;
@@ -997,14 +1011,34 @@ main > section > article > * {
                 -ms-grid-column-align: center;
                     justify-self: center;
     }
+
+    [data-current="post"] a img.mock-laptop {
+        max-width: 100%;
+        margin: 1rem auto 5rem;
+    }
+
+    [data-current="post"] a img.mock-phone {
+        max-width: 70%;
+    }
 }
 
 @media screen and (min-width: 1000px) {
+    [data-current="post"] .device-mocks{ 
+        max-width: 90%;
+    }
+
+    [data-current="post"] a img.mock-laptop {
+        max-width: 90%;
+        border-image-width: 32 128 78 120; 
+        border-image-outset: 32 128 78 120;
+        margin: 4rem auto 8rem;
+    }
+
     [data-current="post"] article {
         max-width: var(--md);
     }
 
-    .post__header {
+    [data-current="post"] .post__header {
         display: flex;
         flex-direction: row;
         gap: 2rem;
@@ -1012,21 +1046,29 @@ main > section > article > * {
                 transform: scale(1.1);
     }
     
-    .post__header img {
+    [data-current="post"] .post__header img {
         max-width: 50%;
     }
 
-    .post__header__copy {
+    [data-current="post"] .post__header__copy {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 2rem 0 0;
+        padding: 1rem 2rem 0 0;
     }
 }
 
 @media screen and (min-width: 1250px) {
     [data-current="post"] article {
         max-width: var(--lg);
+    }
+
+    [data-current="post"] a img.mock-laptop {
+        max-width: 80%;
+    }
+
+    [data-current="post"] .device-mocks{ 
+        max-width: 70%;
     }
 }
 
