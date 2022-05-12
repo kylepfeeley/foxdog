@@ -9,6 +9,7 @@ tags:
   - tech
   - insurance
 ---
+ {% image "./static/img/everquote-desktop.jpg", "mock-laptop", "Screenshot of EverQuote website with EQ robot in foreground and interactive map behind it" %}
 ### Goals
 Growing small private digital marketing company from 20-person team to 700 employee publicly-traded enterprise, expanding car insurance vertical into multiple insurance and financial product offerings.
 
@@ -20,3 +21,8 @@ Scaling high quality lead acquisition across several traffic sources including S
 
 ### Achievements
 Successfully started and scaled and inbound calls revenue line for the Health, Medicare and Life verticals. Additional tested several new sources of traffic acquisition with the main one being Facebook which we were able to run profitability in the Health & Medicare Vertical. Created consumer profiles to segment our audience and used this to inform the creative testing process in an effort to create ads that resonated with consumers which improved the unit economics of the revenue lines.
+
+<div class="mocks-tablet-mobile">
+ {% image "./static/img/everquote-tablet.jpg", "mock-tablet", "EverQuote exit page design integrating pricing and local insurers as well as national carrier clickouts" %}
+ {% image "./static/img/everquote-phone.jpg", "mock-phone", "EverQuote website blog page screenshot on mobile-sized screen" %}
+ </div>

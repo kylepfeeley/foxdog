@@ -10,12 +10,12 @@ tags:
   - fashion
   - entertainment
 ---
- {% image "./static/img/kadota-laptop-screenshot-glamour-uk.jpg", "mock-laptop", "Kadota website laptop view sceenshot" %}
+ {% image "./static/img/kadota-desktop.jpg", "mock-laptop", "Kadota website laptop view sceenshot" %}
 ### Goals
 Rebrand and redesign of trendy production company identity and website, overseeing content creation and SEO optimization, introducing easy-to-use CMS for site so that internal staff would be able to update and manage content going forward.
 ### Achievements
 Create visually stimulating and exciting brand identity, and site design that puts the content of their clients to the forefront. Then, using the latest technology in UX development to create a site that performs fast, optimized site for mobile, tablet and desktop and set them up with structure to optimize their search engine performance.
-<div class="device-mocks">
- {% image "./static/img/kadota-tablet-screenshot.jpg", "mock-tablet", "Kadota website tablet view sceenshot" %}
- {% image "./static/img/kadota-phone-screenshot.jpg", "mock-phone", "Kadota website mobile phone view sceenshot" %}
+<div class="mocks-tablet-mobile">
+ {% image "./static/img/kadota-tablet.jpg", "mock-tablet", "Kadota website tablet view sceenshot" %}
+ {% image "./static/img/kadota-phone.jpg", "mock-phone", "Kadota website mobile phone view sceenshot" %}
  </div>
