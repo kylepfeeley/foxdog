@@ -5,7 +5,7 @@ const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const Image = require("@11ty/eleventy-img");
-const path = require("path");
+// const path = require("path");
 
 const PhotoswipeJS = require.resolve("photoswipe");
 const PhotoswipeLightbox = require.resolve("photoswipe/lightbox");
