@@ -7,10 +7,6 @@ const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const Image = require("@11ty/eleventy-img");
 // const path = require("path");
 
-const PhotoswipeJS = require.resolve("photoswipe");
-const PhotoswipeLightbox = require.resolve("photoswipe/lightbox");
-const PhotoswipeCSS = require.resolve("photoswipe/dist/photoswipe.css");
-
 async function imageShortcode(src, cls, alt) {
     if(alt === undefined) {
         throw new Error(`Missing \`alt\` on myImage from: ${src}`);
@@ -114,9 +110,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/inline.css");
   eleventyConfig.addPassthroughCopy("_includes/assets/css/variables.css");
-  eleventyConfig.addPassthroughCopy({[PhotoswipeLightbox]: "_includes/assets/js/photoswipe-lightbox.esm.min.js"});
-  eleventyConfig.addPassthroughCopy({[PhotoswipeJS]: "_includes/assets/js/photoswipe.esm.min.js"});
-  eleventyConfig.addPassthroughCopy({[PhotoswipeCSS]: "_includes/assets/css/photoswipe.css"});
+  eleventyConfig.addPassthroughCopy({"./node_modules/photoswipe/dist/photoswipe-lightbox.esm.min.js": "_includes/assets/js/photoswipe-lightbox.esm.min.js"});
+  eleventyConfig.addPassthroughCopy({"./node_modules/photoswipe/dist/photoswipe.esm.min.js": "_includes/assets/js/photoswipe.esm.min.js"});
+  eleventyConfig.addPassthroughCopy({"./node_modules/photoswipe/dist/photoswipe.css": "_includes/assets/css/photoswipe.css"});
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
