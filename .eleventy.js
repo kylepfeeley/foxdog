@@ -9,7 +9,7 @@ const Image = require("@11ty/eleventy-img");
 
 const PhotoswipeJS = require.resolve("photoswipe");
 const PhotoswipeLightbox = require.resolve("photoswipe/lightbox");
-const PhotoswipeCSS = require.resolve("photoswipe/photoswipe.css");
+const PhotoswipeCSS = require.resolve("photoswipe/dist/photoswipe.css");
 
 async function imageShortcode(src, cls, alt) {
     if(alt === undefined) {
