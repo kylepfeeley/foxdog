@@ -284,13 +284,10 @@ section.mast::before {
     border-bottom: 5px solid rgba(0,0,0,.4);
   }
 
-[data-current="home"] section.mast {
-    gap: 2rem;
-}
-
-[data-current="home"] section.mast img {
+[data-current="home"] section.mast svg {
     max-width: 200px;
     width: 100%;
+    height: auto;
     position: relative;
 }
 
@@ -332,9 +329,11 @@ section.mast a:hover {
         min-height: 650px;
         max-height: 850px;
         flex-direction: row;
+        gap: 2rem;
     }
 
-    [data-current="home"] section.mast img {
+    [data-current="home"] section.mast svg {
+        min-width: 250px;
         width: 100%;
         max-width: 350px;
     }

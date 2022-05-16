@@ -113,6 +113,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy({"./node_modules/photoswipe/dist/photoswipe-lightbox.esm.min.js": "_includes/assets/js/photoswipe-lightbox.esm.min.js"});
   eleventyConfig.addPassthroughCopy({"./node_modules/photoswipe/dist/photoswipe.esm.min.js": "_includes/assets/js/photoswipe.esm.min.js"});
   eleventyConfig.addPassthroughCopy({"./node_modules/photoswipe/dist/photoswipe.css": "_includes/assets/css/photoswipe.css"});
+  eleventyConfig.addPassthroughCopy({"./node_modules/animejs/lib/anime.min.js": "_includes/assets/js/anime.min.js"});
+
+
+  
 
   /* Markdown Plugins */
   let markdownIt = require("markdown-it");
