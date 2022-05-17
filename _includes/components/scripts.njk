@@ -16,14 +16,14 @@
 {% endif %}
 {% if page.url == "/" %}
     <script>
-anime({
-targets: '.foxdog polygon',
-scale: [
-{value: -1, easing: 'easeOutSine', duration: 0},
-{value: 1, easing: 'easeInOutQuad', duration: 900}
-],
-loop: false,
-delay: anime.stagger(50, {grid: [5, 25], from: 'last'})
-});
+        anime({
+            targets: '.foxdog polygon',
+            scale: [
+            {value: 0, easing: 'easeOutSine', duration: 0},
+            {value: 1, easing: 'easeInOutQuad',  duration: 900}
+            ],
+            loop: false,
+            delay: anime.stagger(50, {grid: [5, 25],from: 'last'})
+        });
     </script>
 {% endif %}
