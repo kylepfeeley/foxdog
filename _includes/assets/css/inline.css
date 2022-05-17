@@ -291,6 +291,11 @@ section.mast::before {
     position: relative;
 }
 
+[data-current="home"] section.mast polygon {
+    -webkit-transform: scale(0.01);
+            transform: scale(0.01);
+}
+
 .mast__copy {
     max-width: var(--md);
     position: relative;
