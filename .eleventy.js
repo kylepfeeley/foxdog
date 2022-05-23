@@ -5,7 +5,6 @@ const htmlmin = require("html-minifier");
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 
 const Image = require("@11ty/eleventy-img");
-// const path = require("path");
 
 async function imageShortcode(src, cls, alt) {
     if(alt === undefined) {
@@ -14,22 +13,22 @@ async function imageShortcode(src, cls, alt) {
       
     let metadata = await Image(src, {
       widths: [500, 750, 1000, 1250, 1500],
-      formats: ['jpeg'],
+      formats: ['webp'],
       urlPath: "../../static/img/sizes",
       outputDir: "./static/img/sizes"
     });
 
     // get metadata even the images are not fully generated
-    let src500 = metadata.jpeg[0];
-    let src750 = metadata.jpeg[1];
-    let src1000 = metadata.jpeg[2];
-    let src1250 = metadata.jpeg[3];
-    let data = metadata.jpeg[metadata.jpeg.length - 1];
+    let src500 = metadata.webp[0];
+    let src750 = metadata.webp[1];
+    let src1000 = metadata.webp[2];
+    let src1250 = metadata.webp[3];
+    let data = metadata.webp[metadata.webp.length - 1];
     return `<a class="post__gallery-image" href="${data.url}" 
             data-pswp-width="${data.width}" 
             data-pswp-height="${data.height}"
-            data-pswp-srcset="${src500.url} 500w, ${src750.url} 750w, ${src1000.url} 1000w, ${src1250.url} 1250w" target="_blank">
-            <img srcset="${src500.url} 500w, ${src750.url} 750w, ${src1000.url} 1000w, ${src1250.url} 1250w" class="${cls}" sizes="100vw" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">
+            data-pswp-srcset="${src500.url} 500w, ${src750.url} 750w, ${src1000.url} 1000w, ${src1250.url} 1250w, ${data.url} 1500w" target="_blank">
+            <img srcset="${src500.url} 500w, ${src750.url} 750w, ${src1000.url} 1000w, ${src1250.url} 1250w, ${data.url} 1500w" class="${cls}" sizes="80vw" width="${data.width}" height="${data.height}" alt="${alt}" loading="lazy" decoding="async">
             </a>`;
   }
 
