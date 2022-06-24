@@ -53,3 +53,21 @@ Video advertising post event report middle of the funnel computer telephony inte
 Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
 
 </div>
+
+<div class="team-bio">
+
+<img src="/static/img/cobalt.png" height="200px" width="200px" style="border-radius:100px">
+
+### Steve Santiso (Full-Stack Development)
+Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
+
+</div>
+
+<div class="team-bio">
+
+<img src="/static/img/fuchsia.png" height="200px" width="200px" style="border-radius:100px">
+
+### Christina Balch (Producer)
+Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
+
+</div>
