@@ -31,7 +31,7 @@ Video advertising post event report middle of the funnel computer telephony inte
 
 <img src="/static/img/fuchsia.png" height="200px" width="200px" style="border-radius:100px">
 
-### Kyle Feeley (Creative, UX Development)
+### Kyle Feeley (Creative Development)
 Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
 
 </div>
@@ -40,7 +40,7 @@ Video advertising post event report middle of the funnel computer telephony inte
 
 <img src="/static/img/gold.png" height="200px" width="200px" style="border-radius:100px">
 
-### Colin Sholes (Marketing)
+### Christina Balch (Producer)
 Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
 
 </div>
@@ -49,25 +49,7 @@ Video advertising post event report middle of the funnel computer telephony inte
 
 <img src="/static/img/orange.png" height="200px" width="200px" style="border-radius:100px">
 
-### Carl Vernon (Full-Stack Development)
-Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
-
-</div>
-
-<div class="team-bio">
-
-<img src="/static/img/cobalt.png" height="200px" width="200px" style="border-radius:100px">
-
-### Steve Santiso (Full-Stack Development)
-Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
-
-</div>
-
-<div class="team-bio">
-
-<img src="/static/img/fuchsia.png" height="200px" width="200px" style="border-radius:100px">
-
-### Christina Balch (Producer)
+### Angelica Arnoux (Content)
 Video advertising post event report middle of the funnel computer telephony integration proposal tenor low-hanging fruit post event report customer churn rate single sign on closed opportunities. Marketing funnel buying signal digital transformation video advertising space only affiliate marketing & management visitor events meetings & webinars spam score lead response time data protection authority.
 
 </div>
