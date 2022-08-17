@@ -1,10 +1,10 @@
 ---
 title: Torchlight Technology
-metaDescription: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
+metaDescription: Growing small private digital marketing company to increase profit/revenue for company, growing from healthcare insurance vertical into other insurance, financial products and even retail.
 date: 2019-01-01T00:00:00.000Z
 author: Kyle Feeley
 featured_image: "torchlight-featured-image.jpg"
-summary: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
+summary: Work for Torchlight included a number of projects across several industries that brought new branding, tech and marketing tools to a variety of companies.
 tags:
   - tech
   - insurance

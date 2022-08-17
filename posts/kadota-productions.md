@@ -1,11 +1,10 @@
 ---
 title: Kadota Productions
-metaDescription: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action.
+metaDescription: Development and execution of brand, website, and digital materials for Kadota redesign.
 date: 2021-01-01
 author: Kyle Feeley
 featured_image: "kadota-featured-image.jpg"
-summary: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action.
-
+summary: Development and execution of brand, website, and digital materials for Kadota redesign. Big focus on a modern-looking website developed with latest tech to deliver gorgeous content quickly and seamlessly.
 tags:
   - fashion
   - entertainment

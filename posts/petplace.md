@@ -1,10 +1,10 @@
 ---
 title: PetPlace
-metaDescription: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
+metaDescription: Rebrand and redesign of a popular pet information website, their email templates and display ads. 
 date: 2019-01-01T00:00:00.000Z
 author: Kyle Feeley
 featured_image: "petplace-featured-image.jpg"
-summary: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
+summary: Complete redesign of PetPlace and integration of pet insurance marketplace with focus on delighting new and existing consumers with improved site experience and faster performance. As well as creation of new marketing materials to expand consumer base and engagement.
 tags:
   - tech
   - branding

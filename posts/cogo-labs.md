@@ -1,10 +1,10 @@
 ---
 title: Cogo Labs
-metaDescription: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
+metaDescription: Page showing the work that FoxDog Marketing Collective did with tech incubator CogoLabs in Cambridge, MA
 date: 2019-01-01T00:00:00.000Z
 author: Kyle Feeley
 featured_image: "cogo-labs-featured-image.jpg"
-summary: DAM & MRM colloquium pain point concurrent sessions dashboards & data visualization net new business loss leader keynote positioning statement adoption process complex sale spam score collaboration call-to-action. 
+summary: Page showing the work that FoxDog Marketing Collective did with tech incubator CogoLabs in Cambridge, MA
 tags:
   - tech
   - insurance
