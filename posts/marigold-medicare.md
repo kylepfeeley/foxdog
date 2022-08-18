@@ -6,9 +6,13 @@ author: Kyle Feeley
 featured_image: "marigold-featured-image.jpg"
 summary: From the ground up branding design, user research, user testing, development and traffic acquisition for a new supplemental medicare insurance marketplace brand.
 tags:
-  - tech
-  - insurance
   - branding
+  - engineering
+  - email
+  - remarketing
+  - content
+  - SEM
+  - social
 ---
 {% image "./static/img/marigold-desktop.jpg", "mock-laptop", "Screenshot of Marigold Medicare website on desktop computer" %}
 

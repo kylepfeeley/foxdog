@@ -6,11 +6,13 @@ author: Kyle Feeley
 featured_image: "petplace-featured-image.jpg"
 summary: Complete redesign of PetPlace and integration of pet insurance marketplace with focus on delighting new and existing consumers with improved site experience and faster performance. As well as creation of new marketing materials to expand consumer base and engagement.
 tags:
-  - tech
   - branding
-  - website
-  - display
+  - engineering
   - email
+  - remarketing
+  - content
+  - SEM
+  - social
 ---
 {% image "./static/img/petplace-desktop.jpg", "mock-laptop", "Screenshot of PetPlace website on desktop computer" %}
 

@@ -6,8 +6,13 @@ author: Kyle Feeley
 featured_image: "everquote-featured-image.jpg"
 summary: EverQuote is a top national online insurance marketplace which we lead teams that developed the brand, UX, and marketing strategies that helped it become a billion dollar company publically traded business.
 tags:
-  - tech
-  - insurance
+  - branding
+  - engineering
+  - email
+  - remarketing
+  - content
+  - SEM
+  - social
 ---
  {% image "./static/img/everquote-desktop.jpg", "mock-laptop", "Screenshot of EverQuote website with EQ robot in foreground and interactive map behind it" %}
 ### Goals

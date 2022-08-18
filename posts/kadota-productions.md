@@ -6,8 +6,9 @@ author: Kyle Feeley
 featured_image: "kadota-featured-image.jpg"
 summary: Development and execution of brand, website, and digital materials for Kadota redesign. Big focus on a modern-looking website developed with latest tech to deliver gorgeous content quickly and seamlessly.
 tags:
-  - fashion
-  - entertainment
+  - branding
+  - engineering
+  - content
 ---
  {% image "./static/img/kadota-desktop.jpg", "mock-laptop", "Kadota website laptop view sceenshot" %}
 ### Goals
