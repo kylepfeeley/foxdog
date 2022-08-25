@@ -1,9 +1,9 @@
 ---
 title: Services
 layout: layouts/services.njk
-metaDescription: Description of services offered at FoxDog Marketing Collective
+metaDescription: "From strategy to ideation, building, testing, and running your sites, socials, and marketing: FoxDog does it all."
 section: services
-summary: Description of services offered at FoxDog Marketing Collective
+summary: "From strategy to ideation, building, testing, and running your sites, socials, and marketing: FoxDog does it all."
 date: 2017-01-01T00:00:00.000Z
 permalink: /services/index.html
 eleventyNavigation:
