@@ -1,7 +1,7 @@
 {
     "name": "marketing-design-tech",
     "version": "1.0.3",
-    "description": "MDTech is a collective of top talent in the digital marketing space.",
+    "description": "FoxDog is a collective of top talent in the digital marketing space.",
     "scripts": {
         "build": "npx eleventy",
         "watch": "npx eleventy --watch",
