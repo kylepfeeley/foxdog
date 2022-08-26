@@ -349,18 +349,20 @@ section.mast::before {
 
 .mast__copy p {
     font-size: 1.2rem;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
 }
 
 section.mast a {
     background-color: var(--cornflower);
-    padding: 1rem 1.5rem .8rem;
-    line-height: 1.2;
+    margin: .5rem 0 2rem;
+    padding: 1rem 1.5rem; 
+    line-height: 1;
     color: var(--white);
     font-size: 1.75rem;
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     text-shadow: 1px 1px 2px var(--cobalt);
+    display: inline-block;
 }
 
 section.mast a:hover {
