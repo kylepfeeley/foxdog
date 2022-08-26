@@ -748,7 +748,7 @@ main > section > article > * {
     border-radius: 50%;
     top: -2rem;
     right: 1rem;
-    line-height: 4.2rem;
+    line-height: 2.55;
     text-align: center;
     font-size: 1.5rem;
   }

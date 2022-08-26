@@ -10,8 +10,9 @@
   {% set css %}
     {% include "assets/css/variables.css" %}
     {% include "assets/css/inline.css" %}
-    <link rel="stylesheet" href="https://use.typekit.net/opx8xep.css">
+    
   {% endset %}
+   <link rel="stylesheet" href="https://use.typekit.net/opx8xep.css">
   <style>{{ css | cssmin | safe }}</style>
   <link rel="stylesheet" href="{{ url }}/_includes/assets/css/photoswipe.css">
 </head>
