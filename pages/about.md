@@ -31,7 +31,7 @@ Craig Lewin has over 10 years’ experience in performance marketing, data analy
 <img src="/static/img/kyle-bio-pic-500.jpg" height="200px" width="200px" style="border-radius:100px">
 
 ### Kyle Feeley (Creative Development)
-Kyle has worked in web technologies for over fifteen years. He brings together his passion and talent for design & branding with his nerdy obsession for performant code and utilizing data to solve creative problems. He has helped build small startups into large enterprise-level companies and applied his tech in a variety of industries like entertainment, fashion, non-profit, insurance, and financial products.
+With a diverse portfolio spanning across various industries–including news, entertainment, fashion, nonprofit, and finance—Kyle has demonstrated his prowess in designing and building user interfaces for websites, native applications, and desktop software. His unique combination of artistic talent and technical expertise sets him apart in the world of digital innovation and has served him in his work with brands like Warner Brothers, Sony, Nintendo and USAA.
 </div>
 
 <div class="team-bio">
